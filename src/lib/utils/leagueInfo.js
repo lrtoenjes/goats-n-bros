@@ -21,9 +21,8 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 export const managers = [
     {
-      "roster": 1,
+      "managerID": "407226473691299840",
       "name": "Luke T",
-      "tookOver": null,
       "location": "Langdon, AB",
       "bio": "Started playing fantasy football in 2013. I'm in multiple leagues and also play fantasy hockey. I've been playing fantasy sports with Tom, Laine, Tyler, and Brad for over a decade. I'm a dad, and have three daughters who consume most of my life outside of fantasy sports.",
       "photo": "https://sleepercdn.com/avatars/56e6d0e7d5f769da50f8cf1fbcf3224c", // square ratio recommended (no larger than 500x500)
@@ -43,9 +42,8 @@ export const managers = [
       "preferredContact": "Sleeper",
     },
     {
-      "roster": 2,
+      "managerID": "409493639383752704",
       "name": "Laine R",
-      "tookOver": null,
       "location": "Calgary, AB", // (optional)
       "bio": "Lorem ipsum...",
       "photo": "https://sleepercdn.com/avatars/5f1206220f01d558651525f3f6a6e06d",
@@ -65,9 +63,8 @@ export const managers = [
       "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "roster": 3,
+      "managerID": "409496494337441792",
       "name": "Tom D",
-      "tookOver": null,
       "location": "Chilliwack, BC",
       "bio": "Lorem ipsum...",
       "photo": "https://sleepercdn.com/avatars/101689c5593bbfa94e765cbe6b36e52e",
@@ -87,9 +84,8 @@ export const managers = [
       "preferredContact": "Sleeper",
     },
     {
-      "roster": 4,
+      "managerID": "409518593487667200",
       "name": "Ben",
-      "tookOver": null,
       "location": "Calgary, AB",
       "bio": "Lorem ipsum...",
       "photo": "https://sleepercdn.com/avatars/1afaa621c614595d7c97a4927d427b55",
@@ -109,9 +105,8 @@ export const managers = [
       "preferredContact": "Sleeper",
     },
     {
-      "roster": 5,
+      "managerID": "654577089202204672",
       "name": "Tyler K",
-      "tookOver": 2021,
       "location": "BC",
       "bio": "Lorem ipsum...",
       "photo": "https://sleepercdn.com/avatars/3eba21643fe1ffe10c86b4fc1de3583f",
@@ -131,9 +126,8 @@ export const managers = [
       "preferredContact": "Sleeper",
     },
     {
-      "roster": 6,
+      "managerID": "576639734583967744",
       "name": "Bernard P",
-      "tookOver": 2020,
       "location": "NY",
       "bio": "Lorem ipsum...",
       "photo": "https://sleepercdn.com/avatars/f20d82d64dccf35139d0c466d09fc6cd",
@@ -153,9 +147,8 @@ export const managers = [
       "preferredContact": "Sleeper",
     },
     {
-      "roster": 7,
+      "managerID": "602645973356847104",
       "name": "Kent",
-      "tookOver": 2021,
       "location": "Calgary, AB",
       "bio": "Lorem ipsum...",
       "photo": "https://sleepercdn.com/avatars/624a8387744e991e23600d45c3fff73f",
@@ -175,9 +168,8 @@ export const managers = [
       "preferredContact": "Sleeper",
     },
     {
-      "roster": 8,
-      "name": "Brad B",
-      "tookOver": null,
+      "managerID": "410632283398090752",
+      "name": "Brad B",      
       "location": "Chilliwack, BC",
       "bio": "Lorem ipsum...",
       "photo": "https://sleepercdn.com/avatars/03b366b23192016dc49f5c4c57eee94a",
@@ -197,9 +189,8 @@ export const managers = [
       "preferredContact": "Sleeper",
     },
     {
-      "roster": 9,
+      "managerID": "410824262123782144",
       "name": "Grant P",
-      "tookOver": null,
       "location": "Las Vegas, NV",
       "bio": "Lorem ipsum...",
       "photo": "https://sleepercdn.com/avatars/3ba9b13839d8aae42305608dfbb1bfe2",
@@ -219,9 +210,8 @@ export const managers = [
       "preferredContact": "Sleeper",
     },
     {
-      "roster": 10,
+      "managerID": "413462932848906240",
       "name": "Jordan L",
-      "tookOver": null,
       "location": "Calgary, AB",
       "bio": "Lorem ipsum...",
       "photo": "https://sleepercdn.com/avatars/c1352eafc0936dfa76061a0397fad06f",
@@ -241,9 +231,8 @@ export const managers = [
       "preferredContact": "Sleeper",
     },
     {
-      "roster": 11,
+      "managerID": "606621759478771712",
       "name": "Austin M",
-      "tookOver": 2021,
       "location": "CA",
       "bio": "Lorem ipsum...",
       "photo": "https://sleepercdn.com/avatars/8c3950ce5bfd68168d57b859e5e8eb21",
@@ -263,9 +252,8 @@ export const managers = [
       "preferredContact": "Sleeper",
     },
     {
-      "roster": 12,
+      "managerID": "423981071101599744",
       "name": "Siemon R",
-      "tookOver": null,
       "location": "Calgary, AB",
       "bio": "Lorem ipsum...",
       "photo": "https://sleepercdn.com/avatars/4a3e1fee0a9879f1bb2413085b1c2789",
