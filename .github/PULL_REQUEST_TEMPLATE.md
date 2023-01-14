@@ -1,6 +1,12 @@
 # Description
 
-Please include a summary of the changes and the related issue. Please also include relevant motivation and context. List any dependencies that are required for this change.
+Describe the change(s) and the context/motivation behind it/them.
+
+## Changes
+
+- [ ] change1
+- [ ] change2
+- [ ] change3 etc..
 
 Fixes # (issue)
 
@@ -12,6 +18,7 @@ Please delete options that are not relevant.
 - [ ] New feature (non-breaking change which adds functionality)
 - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
 - [ ] This change requires a documentation update
+- [ ] Refactor/Chore/Maintenance
 
 # Checklist:
 
