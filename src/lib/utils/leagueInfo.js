@@ -1,5 +1,5 @@
 /*   STEP 1   */
-export const leagueID = "784863651050926080"; // your league ID
+export const leagueID = "918385602641469440"; // your league ID
 export const leagueName = "GOATs 'n Bros"; // your league name
 export const dues = 30; // (optional) used in template constitution page
 export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
@@ -169,7 +169,7 @@ export const managers = [
     },
     {
       "managerID": "410632283398090752",
-      "name": "Brad B",      
+      "name": "Brad B",
       "location": "Chilliwack, BC",
       "bio": "Lorem ipsum...",
       "photo": "https://sleepercdn.com/avatars/03b366b23192016dc49f5c4c57eee94a",
@@ -273,15 +273,15 @@ export const managers = [
       "preferredContact": "Sleeper",
     },
   ]
-  
-  
+
+
   /*   !!  !!  IMPORTANT  !!  !! */
   /*
   Below is the most up to-date version of a manager. Please leave this commented out
   and don't delete it. This will be updated if any fields are added, removed or changed
   and will allow updates without causing merge conflicts
   */
-  
+
     // {
     //   "roster": 3,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
     //   "managerID": "12345678",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
@@ -305,4 +305,3 @@ export const managers = [
     //   "tradingScale": 10, // 1 - 10 (optional)
     //   "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     // },
-    
