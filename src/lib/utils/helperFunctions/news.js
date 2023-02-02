@@ -7,6 +7,7 @@ const NBC_URL = 'https://www.nbcsportsedge.com/api/player_news?sort=-created&pag
 const REDDIT_DYNASTY = 'https://www.reddit.com/r/DynastyFF/new.json';
 const REDDIT_FANTASY = 'https://www.reddit.com/r/fantasyfootball/new.json';
 const SERVER_API = '/api/fetch_serverside_news';
+const IGNORE_REDDIT = true;
 
 export const getNews = async (servFetch, bypass = false) => {
 	if(get(news)[0] && !bypass) {
@@ -17,16 +18,19 @@ export const getNews = async (servFetch, bypass = false) => {
 		getFeed(NBC_URL, processNBC),
 		smartFetch(SERVER_API, {compress: true}),
 	];
-	if(dynasty) {
-		newsSources.push(getFeed(REDDIT_DYNASTY, processReddit));
-	} else {
-		newsSources.push(getFeed(REDDIT_FANTASY, processReddit));
+
+	if (!IGNORE_REDDIT) {
+		if(dynasty) {
+			newsSources.push(getFeed(REDDIT_DYNASTY, processReddit));
+		} else {
+			newsSources.push(getFeed(REDDIT_FANTASY, processReddit));
+		}
 	}
 
 	const [nbcNews, serverRes, reddit] = await waitForAll(...newsSources).catch((err) => { console.error(err); });
 	const serverData = await serverRes.json().catch((err) => { console.error(err); });
-
-	const articles = [...nbcNews, ...reddit, ...serverData].sort((a, b) => (a.ts < b.ts) ? 1 : -1);
+	
+	const articles = [...nbcNews, ...reddit ?? [], ...serverData].sort((a, b) => (a.ts < b.ts) ? 1 : -1);
 	news.update(() => articles);
 
 	return {articles, fresh: true};
