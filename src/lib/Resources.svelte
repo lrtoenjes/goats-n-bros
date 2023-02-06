@@ -84,7 +84,7 @@ import { dynasty } from './utils/helper';
         },
         {
             name: "TheScore Dynasty Trade Value Chart",
-            url: "https://www.thescore.com/nfl/news/2543098/fantasy-dynasty-trade-value-chart-january-edition",
+            url: "https://www.thescore.com/news/2564798",
             icon: "assessment",
             premium: false,
             separator: false,
