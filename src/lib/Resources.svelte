@@ -84,7 +84,7 @@ import { dynasty } from './utils/helper';
         },
         {
             name: "TheScore Dynasty Trade Value Chart",
-            url: "https://www.thescore.com/news/2564798",
+            url: "https://www.thescore.com/news/2626654",
             icon: "assessment",
             premium: false,
             separator: false,
